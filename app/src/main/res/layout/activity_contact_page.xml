@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context="and_401.contactsselectionapplication.ContactPageActivity">
+
+    <TextView
+        android:id="@+id/txtNameTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/contact_page_name"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="3dp"
+        android:textSize="22dp"/>
+
+    <TextView
+        android:id="@+id/txtName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/contact_page_name"
+        android:layout_below="@id/txtNameTitle"
+        android:layout_marginLeft="3dp"
+        android:textSize="18dp"/>
+
+    <TextView
+        android:id="@+id/txtPhoneTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="3dp"
+        android:text="@string/contact_page_phone"
+        android:layout_below="@id/txtName"
+        android:layout_marginLeft="3dp"
+        android:textSize="22dp"/>
+
+    <TextView
+        android:id="@+id/txtPhone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/contact_page_phone"
+        android:layout_below="@id/txtPhoneTitle"
+        android:layout_marginLeft="3dp"
+        android:textSize="18dp"/>
+
+    <TextView
+        android:id="@+id/txtWebsiteTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="3dp"
+        android:text="@string/contact_page_website"
+        android:layout_below="@id/txtPhone"
+        android:layout_marginLeft="3dp"
+        android:textSize="22dp"/>
+
+    <TextView
+        android:id="@+id/txtWebsite"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/contact_page_website"
+        android:layout_below="@id/txtWebsiteTitle"
+        android:layout_marginLeft="3dp"
+        android:textSize="18dp"/>
+
+</RelativeLayout>
